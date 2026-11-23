@@ -1,6 +1,6 @@
 <p align="center"><img src="assets/banner.png" alt="yomiage：画面の文字を、ボイスで読み上げ。" width="880"></p>
 
-# yomiage
+# yomiage - よみあげ
 
 友人のために作った画面の文字を読み取り、VOICEVOX の声で読み上げる Windows 用のフリーのアプリです。
 
