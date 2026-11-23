@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/banner.png" alt="yomiage：画面の文字を、ボイスで読み上げ。" width="880"></p>
+
 # yomiage
 
 画面の文字を読み取り、VOICEVOX の声で読み上げる Windows 用のフリーのアプリです。
@@ -17,7 +19,7 @@ yomiage は [CC BY-NC-SA 4.0](LICENSE)（表示・非営利・継承）で公開
 | [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML) | GPU で OCR を動かす | Microsoft のライセンス |
 | [lindera](https://github.com/lindera/lindera) と IPADIC | ふりがなの読み | MIT License / IPADIC のライセンス |
 | [DotGothic16](https://fonts.google.com/specimen/DotGothic16) | ドット文字の訳文の書体 | SIL Open Font License 1.1 |
-| [M PLUS Rounded 1c](https://fonts.google.com/specimen/M+PLUS+Rounded+1c) | アイコンの文字 | SIL Open Font License 1.1 |
+| [Mochiy Pop One](https://fonts.google.com/specimen/Mochiy+Pop+One) | アイコンの文字 | SIL Open Font License 1.1 |
 | gpui ほか Rust のライブラリ | アプリ本体 | MIT / Apache-2.0 など |
 
 ### はじめて使うときに、利用規約に同意してダウンロードするもの
