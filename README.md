@@ -2,7 +2,7 @@
 
 # yomiage
 
-画面の文字を読み取り、VOICEVOX の声で読み上げる Windows 用のフリーのアプリです。
+友人のために作った画面の文字を読み取り、VOICEVOX の声で読み上げる Windows 用のフリーのアプリです。
 
 [リリース](https://github.com/tarou-imokenpi/yomiage-releases/releases/latest) から `yomiage-setup-<版>.exe` をダウンロードして実行してください。
 
