@@ -6,6 +6,16 @@
 
 [リリース](https://github.com/tarou-imokenpi/yomiage-releases/releases/latest) から `yomiage-setup-<版>.exe` をダウンロードして実行してください。
 
+<!-- demo: 動きの GIF と画面の画像はここに入れる -->
+
+## とくちょう
+
+- 範囲を選ぶだけで、画面の文字をボイスで読み上げます。漢字にはふりがなを付け、読んでいる場所も表示します。
+- 英語は翻訳して、元の場所に重ねて表示・読み上げします。英単語はカタカナの読みで読みます。
+- 軽い: 読み終えて表示しているあいだの CPU 使用率は 0.02〜0.4%（16 コア合計の実測）。
+- GPU があれば速い: 文字の読み取りは約 0.07 秒（GPU なしでは 0.6〜0.8 秒）。
+- インストールするだけで使えます。はじめのダウンロードのあとは、インターネットなしで動きます。
+
 ## ライセンス
 
 yomiage は [CC BY-NC-SA 4.0](LICENSE)（表示・非営利・継承）で公開しています。**営利目的では使えません。**
@@ -18,6 +28,8 @@ yomiage は [CC BY-NC-SA 4.0](LICENSE)（表示・非営利・継承）で公開
 | [ONNX Runtime](https://github.com/microsoft/onnxruntime) | OCR の推論 | MIT License |
 | [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML) | GPU で OCR を動かす | Microsoft のライセンス |
 | [lindera](https://github.com/lindera/lindera) と IPADIC | ふりがなの読み | MIT License / IPADIC のライセンス |
+| [JMdict](https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project)（EDRDG）から作った表 | 英単語のカタカナ読み | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.ja) |
+| [kanalizer](https://github.com/VOICEVOX/kanalizer)（VOICEVOX） | 表に無い英単語の読みの推測 | MIT License |
 | [DotGothic16](https://fonts.google.com/specimen/DotGothic16) | ドット文字の訳文の書体 | SIL Open Font License 1.1 |
 | [Mochiy Pop One](https://fonts.google.com/specimen/Mochiy+Pop+One) | アイコンの文字 | SIL Open Font License 1.1 |
 | gpui ほか Rust のライブラリ | アプリ本体 | MIT / Apache-2.0 など |
